@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.example.counts.TitleFragment"
-        android:label="TitleFragment"
+        android:label="Counts"
         tools:layout="@layout/fragment_title">
         <action
             android:id="@+id/action_titleFragment_to_editFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/editFragment"
         android:name="com.example.counts.EditFragment"
-        android:label="EditFragment"
+        android:label="Enter Items"
         tools:layout="@layout/edit_fragment">
         <action
             android:id="@+id/action_editFragment_to_listFragment"
@@ -28,7 +28,7 @@
     <fragment
         android:id="@+id/listFragment"
         android:name="com.example.counts.ListFragment"
-        android:label="ListFragment"
+        android:label="Items"
         tools:layout="@layout/fragment_list"/>
     <fragment
         android:id="@+id/aboutFragment"
